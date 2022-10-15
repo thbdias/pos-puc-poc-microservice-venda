@@ -3,8 +3,8 @@ package br.com.venda.dto;
 import lombok.Data;
 
 @Data
-public class EmbalagemDTO {
+public class ProdutoDTO {
 	
-	private Integer quantidade;
+	private String nome;
 
 }

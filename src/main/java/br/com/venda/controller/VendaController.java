@@ -5,14 +5,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.venda.dto.EmbalagemDTO;
+import br.com.venda.dto.VendaDTO;
 
 @RestController
 @RequestMapping
-public class EmbalagemController {
+public class VendaController {
 	
 	@PostMapping("/inserir/registro")
-	public String inserirRegistro(@RequestBody EmbalagemDTO embalagemDTO) {
+	public String inserirRegistro(@RequestBody VendaDTO embalagemDTO) {
 		return embalagemDTO.getQuantidade() + "";
 	}
 
