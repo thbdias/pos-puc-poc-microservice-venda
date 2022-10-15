@@ -3,16 +3,10 @@ package br.com.venda.dto;
 import lombok.Data;
 
 @Data
-public class VendaDTO {
-	
-	private Long idProduto;
+public class UpdateSaldoPesoDTO {
 	
 	private Long idNotaFiscalProdutor;
 	
 	private Integer quantidade;
-	
-	private Integer numTransf;
-	
-	private String nomeMotoristaLocal;
 
 }

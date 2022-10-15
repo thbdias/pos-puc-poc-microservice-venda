@@ -24,4 +24,8 @@ public class ProdutoService {
 		return ProdutoAdapter.adapt(produtoRepository.save(produto));
 	}
 
+	public ProdutoDTO getById(Long idProduto) {
+		return ProdutoAdapter.adapt(produtoRepository.findById(idProduto).get());
+	}
+
 }

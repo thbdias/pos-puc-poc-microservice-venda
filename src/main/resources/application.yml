@@ -18,3 +18,8 @@ nota:
   service:
     host:
       api: http://localhost:8085/nfe
+
+produtor:
+  service:
+    host:
+      api: http://localhost:8081/produtor      
