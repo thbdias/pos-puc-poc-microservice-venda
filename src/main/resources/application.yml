@@ -13,4 +13,8 @@ server:
   port: 8084
   servlet:
     context-path: /venda
-  
+
+nota:
+  service:
+    host:
+      api: http://localhost:8085/nfe
